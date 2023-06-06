@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Project</title>
+    </head>
+    <body>
+        <div><p>PDF Merger trial</p></div>
+        <div>
+            <form>
+                <label for = "Facility"> Facility : </label>
+                <select name = "Facility" id = "Facility">
+                    <option value = "Select Facility"> Select Facility </option>
+                    <option value = "Aerosol MFG"> Aerosol MFG </option>
+                    <option value = "Aerosol PKG"> Aerosol PKG </option>
+                    <option value = "HC Capsules"> HC Capsules </option>
+                    <option value = "Tab MFG"> Tab MFG </option>
+                    <option value = "Tab PKG"> Tab PKG </option>
+                </select>
+            </form>
+        </div>
+        <script>
+            function get_value(a){
+                var x = document.getElementById("Facility").value;
+                console.log(x)
+            }
+            get_value(a)
+        </script>
+    </body>
+</html>
